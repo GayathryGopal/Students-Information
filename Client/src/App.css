@@ -1,0 +1,34 @@
+Update your list.css file with the following styles
+
+/* Set the background color to blue and take up the full screen */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #007BFF; /* Replace with your desired blue color */
+}
+
+/* Center the content vertically within the intro section */
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Take up the full viewport height */
+}
+
+/* Set the table background color to black and style table elements */
+.table {
+  background-color: #000; /* Black background color */
+  color: #fff; /* Text color */
+}
+
+/* Style table headers */
+.table thead th {
+  color: #fff; /* Header text color */
+}
+
+/* Style table body rows */
+.table tbody td {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.65); /* Text color */
+}
+

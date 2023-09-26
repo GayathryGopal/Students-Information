@@ -1,0 +1,58 @@
+ /* Importing fonts from Google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+ 
+ 
+ body {
+  margin: 0;
+  padding: 0;
+  background-color: white; width: 100%;
+  overflow: hidden;
+ }
+
+  
+
+
+.intro {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  
+  /* overflow-x: hidden; */
+
+}
+
+.table {
+
+  background-color: #000;
+  color: #fff;
+  border-collapse: collapse;
+  width: 600px;
+  
+  margin-top: 20px;
+  margin-bottom: 400px;
+}
+
+.table thead th {
+  color: #fff;
+  background-color: #333;
+  padding: 10px;
+}
+
+.table tbody td {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.65);
+  padding: 8px;
+  text-align: center;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #444;
+}
+
+.listdiv{width: 500px;}
+h3{margin-top: 80px;  width: 280px; margin-left: 150px;
+  }
